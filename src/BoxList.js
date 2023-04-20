@@ -7,6 +7,18 @@ import { v4 as uuid } from 'uuid';
 function BoxList() {
   const [boxes, setBoxes] = useState([]);
 
+
+  // Render boxes
+    // Map thru boxes and create box component
+
+
+
+  // Add box
+    // use setBoxes to add box data from form to boxes array
+    // uuid
+
+  // Remove
+
   // Returns:
     // Box form
     // Map thru boxes to make box components
