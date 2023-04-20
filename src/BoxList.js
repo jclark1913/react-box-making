@@ -16,6 +16,10 @@ function BoxList() {
   // Add box
     // use setBoxes to add box data from form to boxes array
     // uuid
+  function addBox(box) {
+    let newBox = {...box, id: uuid()};
+    setBoxes(boxes => [...boxes, newBox]);
+  }
 
   // Remove
 
